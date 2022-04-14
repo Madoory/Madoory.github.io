@@ -1,0 +1,88 @@
+html {
+    height: 100%;
+}
+
+body{ /* achtergrond */
+    background-color: #000000;
+    background-image: url(images/backgroundd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.container { /* locatie van layout */
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 1024px;
+}
+
+header{ /* locatie van logo */
+    height: 118px;
+    text-align: left;
+}
+
+nav { /* box 1 boven */
+    background-color: rgba(128, 128, 128, 0.274);
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+main { /* midden text */
+    height: 400px;
+    padding-top: 80px;  /* Padiing midden margin boven*/
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+footer { /* box 2 beneden */
+    background-color: rgba(0, 0, 0, 0.651);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h1{ /* kop instellingen*/
+    font-size: 84px;
+    color: grey;
+    font-family: 'Cafe Francoise', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+p { /* midden text */
+    font-size: 18px;
+    color: white;
+    font-family: 'Cafe Francoise', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{ /* email knop */
+    color: white;
+    font-family: 'Cafe Francoise', Tahoma, Geneva, Verdana, sans-serif;
+    /* text-decoration: none; */
+}
+
+
+nav a{ /* nav text */
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+footer p { /* website gemaakt text */
+    font-size: 14px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.671);
+}
+footer a { /* troll link */
+    font-size: 14px;
+    padding-left: 420px;
+    color: rgba(255, 0, 0, 0.411);
+}
+.video { /* yt video */
+    padding-left: 98px;
+    padding-bottom: 15px;
+}
+
+.picture { /*noodles foto */
+    padding-left: 350px;
+    padding-bottom: 15px;
+}
